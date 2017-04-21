@@ -24,7 +24,7 @@ y_data = one_hot(data[:,4].astype(int), 3)
 
 print y_data
 
-print "\nSome samples..."
+print "\n Some samples..."
 for i in range(20):
     print x_data[i], " -> ", y_data[i]
 print
